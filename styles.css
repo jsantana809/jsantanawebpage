@@ -1,0 +1,95 @@
+
+nav ul{
+margin: 0;
+padding: 0;
+  list-style: none;
+}
+
+nav li {
+
+display: inline-block;
+margin: 35px;
+
+}
+
+nav a {
+  font-family: impact;
+  text-decoration: none;
+  text-transform: uppercase;   
+align-content: center;
+
+}
+
+
+nav a::before {
+
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #444;
+
+
+  position: absolute;
+  top: 0;
+  width: 0;
+
+}
+
+
+nav a: hover::before {
+  width: 100%;
+}
+
+ a{
+color: silver;
+}
+
+
+h2 {
+background-color: clear; 
+    width: 200px; 
+    font-family: impact; 
+    font-style: normal;
+    font-size: 50px;
+margin: 10px;
+padding: 5px;
+word-spacing: 20px;
+}
+
+p {display: block;
+  text-align: center;
+  color: silver;
+  font-family: impact;
+  font-size: 15px;    
+}
+pre {
+  display: block;
+  text-align: center;
+  color: silver;
+  background-color:rgba(100, 100, 120, 0.5); 
+  font-family: impact;
+  font-size: 30px;
+  white-space: pre;
+  margin: 1em 0;
+}
+
+pre #2 {
+     display: block;
+  text-align: center;
+  color: silver;
+  background-color:rgba(100, 100, 120, 0.5); 
+  font-family: impact;
+  font-size: 30px;
+  white-space: pre;
+  margin: 1em 0;
+}
+
+pre #3 {
+        
+  text-align: center;
+  color: silver;
+  font-family: impact;
+  font-size: 30px;
+  margin: 1em 0;
+}
